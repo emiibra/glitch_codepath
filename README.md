@@ -25,9 +25,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] Describe the game's purpose. eb: Purpos is to document the guessings of the user of a secret key, and guiding them trough higher lower until number is reach, while documenting the number of tries, the tries, the score
+- [ ] Detail which bugs you found.eb:bugs: 1) higher and lower not working correctly, 2)history only shows up the logs after first attempt, 3)score start deducting 5 after first attempt, 4)attepmts left only start substracting after first attempt
+- [ ] Explain what fixes you applied. 1) i delete the logic when changing the type of guess when the attempt is even, i left it on int, also i change the logic of check guess, it was the opposite, is higher go lower, and if is lower go higher
 
 ## 📸 Demo
 
